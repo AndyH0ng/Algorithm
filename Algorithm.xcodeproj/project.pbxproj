@@ -8,10 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		881699E42C2297F6004C71F6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 881699E32C2297F6004C71F6 /* main.c */; };
+		886A4B412C3E402200D7A2A1 /* Recursion.c in Sources */ = {isa = PBXBuildFile; fileRef = 886A4B402C3E402200D7A2A1 /* Recursion.c */; };
+		886A4B5E2C3E558F00D7A2A1 /* Dynamic.c in Sources */ = {isa = PBXBuildFile; fileRef = 886A4B582C3E50D600D7A2A1 /* Dynamic.c */; };
+		886A4B672C3E809000D7A2A1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 886A4B662C3E809000D7A2A1 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		881699DE2C2297F6004C71F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		886A4B3C2C3E402200D7A2A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		886A4B542C3E50D600D7A2A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		886A4B622C3E809000D7A2A1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +55,37 @@
 /* Begin PBXFileReference section */
 		881699E02C2297F6004C71F6 /* Insertion Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Insertion Sort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		881699E32C2297F6004C71F6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		886A4B3E2C3E402200D7A2A1 /* DP - Cut Rod Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DP - Cut Rod Recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A4B402C3E402200D7A2A1 /* Recursion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Recursion.c; sourceTree = "<group>"; };
+		886A4B562C3E50D600D7A2A1 /* Cut Rod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cut Rod"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A4B582C3E50D600D7A2A1 /* Dynamic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dynamic.c; sourceTree = "<group>"; };
+		886A4B642C3E809000D7A2A1 /* Stack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A4B662C3E809000D7A2A1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		881699DD2C2297F6004C71F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A4B3B2C3E402200D7A2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A4B532C3E50D600D7A2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A4B612C3E809000D7A2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +98,9 @@
 		881699C62C2296B8004C71F6 = {
 			isa = PBXGroup;
 			children = (
+				886A4B5F2C3E807F00D7A2A1 /* Data Structure */,
 				881699E22C2297F6004C71F6 /* Insertion Sort */,
+				886A4B3F2C3E402200D7A2A1 /* Dynamic Programming */,
 				881699E12C2297F6004C71F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				881699E02C2297F6004C71F6 /* Insertion Sort */,
+				886A4B3E2C3E402200D7A2A1 /* DP - Cut Rod Recursion */,
+				886A4B562C3E50D600D7A2A1 /* Cut Rod */,
+				886A4B642C3E809000D7A2A1 /* Stack */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +122,39 @@
 				881699E32C2297F6004C71F6 /* main.c */,
 			);
 			path = "Insertion Sort";
+			sourceTree = "<group>";
+		};
+		886A4B3F2C3E402200D7A2A1 /* Dynamic Programming */ = {
+			isa = PBXGroup;
+			children = (
+				886A4B5D2C3E558100D7A2A1 /* Cutting Rod */,
+			);
+			path = "Dynamic Programming";
+			sourceTree = "<group>";
+		};
+		886A4B5D2C3E558100D7A2A1 /* Cutting Rod */ = {
+			isa = PBXGroup;
+			children = (
+				886A4B402C3E402200D7A2A1 /* Recursion.c */,
+				886A4B582C3E50D600D7A2A1 /* Dynamic.c */,
+			);
+			name = "Cutting Rod";
+			sourceTree = "<group>";
+		};
+		886A4B5F2C3E807F00D7A2A1 /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				886A4B652C3E809000D7A2A1 /* Stack */,
+			);
+			path = "Data Structure";
+			sourceTree = "<group>";
+		};
+		886A4B652C3E809000D7A2A1 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				886A4B662C3E809000D7A2A1 /* main.c */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +193,57 @@
 			productReference = 881699E02C2297F6004C71F6 /* Insertion Sort */;
 			productType = "com.apple.product-type.tool";
 		};
+		886A4B3D2C3E402200D7A2A1 /* DP - Cut Rod Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886A4B442C3E402200D7A2A1 /* Build configuration list for PBXNativeTarget "DP - Cut Rod Recursion" */;
+			buildPhases = (
+				886A4B3A2C3E402200D7A2A1 /* Sources */,
+				886A4B3B2C3E402200D7A2A1 /* Frameworks */,
+				886A4B3C2C3E402200D7A2A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DP - Cut Rod Recursion";
+			productName = "Dynamic Programming";
+			productReference = 886A4B3E2C3E402200D7A2A1 /* DP - Cut Rod Recursion */;
+			productType = "com.apple.product-type.tool";
+		};
+		886A4B552C3E50D600D7A2A1 /* Cut Rod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886A4B5A2C3E50D600D7A2A1 /* Build configuration list for PBXNativeTarget "Cut Rod" */;
+			buildPhases = (
+				886A4B522C3E50D600D7A2A1 /* Sources */,
+				886A4B532C3E50D600D7A2A1 /* Frameworks */,
+				886A4B542C3E50D600D7A2A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cut Rod";
+			productName = "Cut Rod";
+			productReference = 886A4B562C3E50D600D7A2A1 /* Cut Rod */;
+			productType = "com.apple.product-type.tool";
+		};
+		886A4B632C3E809000D7A2A1 /* Stack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886A4B682C3E809000D7A2A1 /* Build configuration list for PBXNativeTarget "Stack" */;
+			buildPhases = (
+				886A4B602C3E809000D7A2A1 /* Sources */,
+				886A4B612C3E809000D7A2A1 /* Frameworks */,
+				886A4B622C3E809000D7A2A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stack;
+			productName = Stack;
+			productReference = 886A4B642C3E809000D7A2A1 /* Stack */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -111,6 +257,15 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					881699DF2C2297F6004C71F6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					886A4B3D2C3E402200D7A2A1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					886A4B552C3E50D600D7A2A1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					886A4B632C3E809000D7A2A1 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -130,6 +285,9 @@
 			targets = (
 				881699CB2C2296B8004C71F6 /* Algorithm */,
 				881699DF2C2297F6004C71F6 /* Insertion Sort */,
+				886A4B3D2C3E402200D7A2A1 /* DP - Cut Rod Recursion */,
+				886A4B552C3E50D600D7A2A1 /* Cut Rod */,
+				886A4B632C3E809000D7A2A1 /* Stack */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +298,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				881699E42C2297F6004C71F6 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A4B3A2C3E402200D7A2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886A4B5E2C3E558F00D7A2A1 /* Dynamic.c in Sources */,
+				886A4B412C3E402200D7A2A1 /* Recursion.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A4B522C3E50D600D7A2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A4B602C3E809000D7A2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886A4B672C3E809000D7A2A1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +490,78 @@
 			};
 			name = Release;
 		};
+		886A4B422C3E402200D7A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS2475WLUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		886A4B432C3E402200D7A2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS2475WLUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		886A4B5B2C3E50D600D7A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS2475WLUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		886A4B5C2C3E50D600D7A2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS2475WLUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		886A4B692C3E809000D7A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS2475WLUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		886A4B6A2C3E809000D7A2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS2475WLUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +588,33 @@
 			buildConfigurations = (
 				881699E52C2297F6004C71F6 /* Debug */,
 				881699E62C2297F6004C71F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886A4B442C3E402200D7A2A1 /* Build configuration list for PBXNativeTarget "DP - Cut Rod Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A4B422C3E402200D7A2A1 /* Debug */,
+				886A4B432C3E402200D7A2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886A4B5A2C3E50D600D7A2A1 /* Build configuration list for PBXNativeTarget "Cut Rod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A4B5B2C3E50D600D7A2A1 /* Debug */,
+				886A4B5C2C3E50D600D7A2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886A4B682C3E809000D7A2A1 /* Build configuration list for PBXNativeTarget "Stack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A4B692C3E809000D7A2A1 /* Debug */,
+				886A4B6A2C3E809000D7A2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
